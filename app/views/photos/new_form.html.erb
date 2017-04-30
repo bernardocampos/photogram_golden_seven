@@ -1,6 +1,15 @@
 <h1>Add a new photo</h1>
 <form action="/create_photo">
-  <div><input type="text" name="source" placeholder="Photo URL"></div>
-  <div><input type="text" name="caption" placeholder="Caption"></div>
-  <div><button>Add photo</button></div>
+  <div>
+    <label for="url">Image URL
+      <input type="text" name="source" id="url">
+    </label>
+  </div>
+
+  <div>
+    <label for="caption">Caption
+      <input type="text" name="caption" id="caption">
+    </label>
+  </div>
+  <div><button>Create Photo</button></div>
 </form>
